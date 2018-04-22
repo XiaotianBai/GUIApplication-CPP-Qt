@@ -1,0 +1,400 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Simplified, PRC) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Simulator_Xiaotian.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\sim.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Graduation project -- Xiaotian Bai"
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    LTEXT           "Graduation project -- Xiaotian Bai",IDC_STATIC,17,17,140,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2016",IDC_STATIC,30,31,119,8
+    DEFPUSHBUTTON   "Yes",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_Simulator_Xiaotian_DIALOG DIALOGEX 0, 0, 789, 446
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Robotic Arm Simulator -- Xiaotian Bai"
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Quit",IDOK,732,425,50,14
+    LTEXT           "Enter Rotation Angles",IDC_STATIC,6,6,90,8,SS_CENTERIMAGE
+    CTEXT           "θ1",IDC_STATIC,13,18,22,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_InO1,6,35,31,14,ES_AUTOHSCROLL
+    CTEXT           "End Point Stance",IDC_STATIC,6,53,71,13,SS_CENTERIMAGE
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,6,68,1,131
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,6,68,10,1
+    CTEXT           "nx=",IDC_STATIC,27,70,22,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_NX,21,83,49,14,ES_AUTOHSCROLL
+    CTEXT           "ny=",IDC_STATIC,27,106,22,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_NY,21,119,47,14,ES_AUTOHSCROLL
+    CTEXT           "nz=",IDC_STATIC,27,143,22,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_NZ,21,157,47,14,ES_AUTOHSCROLL
+    CTEXT           "0",IDC_STATIC,27,181,22,12,SS_CENTERIMAGE
+    CTEXT           "ox=",IDC_STATIC,82,70,22,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_OX,76,83,47,14,ES_AUTOHSCROLL
+    CTEXT           "oy=",IDC_STATIC,82,106,22,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_OY,76,119,47,14,ES_AUTOHSCROLL
+    CTEXT           "oz=",IDC_STATIC,82,143,22,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_OZ,76,157,47,14,ES_AUTOHSCROLL
+    CTEXT           "0",IDC_STATIC,82,179,22,12,SS_CENTERIMAGE
+    CTEXT           "ax=",IDC_STATIC,136,69,22,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_AX,130,83,47,14,ES_AUTOHSCROLL
+    CTEXT           "ay=",IDC_STATIC,136,105,22,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_AY,130,119,47,14,ES_AUTOHSCROLL
+    CTEXT           "az=",IDC_STATIC,136,143,22,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_AZ,130,157,47,14,ES_AUTOHSCROLL
+    CTEXT           "0",IDC_STATIC,136,179,22,12,SS_CENTERIMAGE
+    CTEXT           "px=",IDC_STATIC,188,69,22,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_PX,182,83,47,14,ES_AUTOHSCROLL
+    CTEXT           "py=",IDC_STATIC,188,105,22,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_PY,182,119,47,14,ES_AUTOHSCROLL
+    CTEXT           "pz=",IDC_STATIC,188,143,22,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_PZ,182,157,47,14,ES_AUTOHSCROLL
+    CTEXT           "1",IDC_STATIC,188,179,22,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,240,64,1,131
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,230,64,10,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,6,198,10,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,230,194,10,1
+    EDITTEXT        IDC_OutO11,57,249,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO12,109,249,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO13,154,249,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO14,201,249,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO15,253,249,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO16,301,249,31,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Calculate",IDC_RunZhengJie,225,36,50,14
+    PUSHBUTTON      "Get Reverse Solution",IDC_RunNi,107,195,88,14
+    EDITTEXT        IDC_InO2,42,35,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_InO3,78,35,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_InO4,113,35,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_InO5,147,35,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_InO6,183,35,31,14,ES_AUTOHSCROLL
+    CTEXT           "Sol.1",IDC_STATIC,11,247,36,11,SS_CENTERIMAGE
+    EDITTEXT        IDC_OutO21,57,272,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO22,109,272,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO23,154,272,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO24,201,272,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO25,253,272,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO26,301,272,31,14,ES_AUTOHSCROLL
+    CTEXT           "Sol.2",IDC_STATIC,9,270,37,11,SS_CENTERIMAGE
+    CTEXT           "Sol.3",IDC_STATIC,9,293,37,11,SS_CENTERIMAGE
+    CTEXT           "Sol.4",IDC_STATIC,13,317,30,11,SS_CENTERIMAGE
+    CTEXT           "Sol.5",IDC_STATIC,10,339,36,11,SS_CENTERIMAGE
+    CTEXT           "Sol.6",IDC_STATIC,9,361,37,11,SS_CENTERIMAGE
+    CTEXT           "Sol.7",IDC_STATIC,9,383,37,11,SS_CENTERIMAGE
+    CTEXT           "Sol.8",IDC_STATIC,8,405,38,11,SS_CENTERIMAGE
+    EDITTEXT        IDC_OutO31,57,294,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO32,109,294,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO33,154,294,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO34,201,294,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO35,253,294,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO36,301,294,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO41,57,317,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO42,109,317,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO43,154,317,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO44,201,317,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO45,253,317,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO46,301,317,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO51,57,337,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO52,109,337,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO53,154,337,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO54,201,337,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO55,253,337,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO56,301,337,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO61,57,360,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO62,109,360,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO63,154,360,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO64,201,360,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO65,253,360,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO66,301,360,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO71,57,382,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO72,109,382,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO73,154,382,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO74,201,382,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO75,253,382,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO76,301,382,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO81,57,405,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO82,109,405,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO83,154,405,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO84,201,405,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO85,253,405,31,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OutO86,301,405,31,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Display",IDC_DisAns1,338,250,37,13
+    PUSHBUTTON      "Display",IDC_DisAns2,338,271,37,13
+    PUSHBUTTON      "Display",IDC_DisAns3,338,293,37,13
+    PUSHBUTTON      "Display",IDC_DisAns4,338,317,37,13
+    PUSHBUTTON      "Display",IDC_DisAns5,338,337,37,13
+    PUSHBUTTON      "Display",IDC_DisAns6,338,359,37,13
+    PUSHBUTTON      "Display",IDC_DisAns7,338,382,37,13
+    PUSHBUTTON      "Display",IDC_DisAns8,338,403,37,13
+    CTEXT           "",IDC_Explain2,389,271,137,13,SS_CENTERIMAGE
+    CTEXT           "",IDC_Explain4,400,317,129,13,SS_CENTERIMAGE
+    CTEXT           "",IDC_Explain6,395,361,132,13,SS_CENTERIMAGE
+    CTEXT           "",IDC_Explain8,519,403,263,13,SS_CENTERIMAGE
+    CTEXT           "",IDC_Explain1,396,249,134,13,SS_CENTERIMAGE
+    CTEXT           "",IDC_Explain3,390,295,138,13,SS_CENTERIMAGE
+    CTEXT           "",IDC_Explain5,397,340,134,13,SS_CENTERIMAGE
+    CTEXT           "",IDC_Explain7,395,383,263,13,SS_CENTERIMAGE
+    CTEXT           "Range",IDC_STATIC,13,232,33,13,SS_CENTERIMAGE
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,395,265,129,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,396,289,126,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,396,311,129,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,396,333,130,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,396,355,131,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,396,377,132,1
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,395,400,134,1
+    CTEXT           "θ2",IDC_STATIC,47,18,22,12,SS_CENTERIMAGE
+    CTEXT           "θ3",IDC_STATIC,85,18,22,12,SS_CENTERIMAGE
+    CTEXT           "θ4",IDC_STATIC,119,18,22,12,SS_CENTERIMAGE
+    CTEXT           "θ5",IDC_STATIC,151,18,22,12,SS_CENTERIMAGE
+    CTEXT           "θ6",IDC_STATIC,183,18,22,12,SS_CENTERIMAGE
+    CTEXT           "θ1",IDC_STATIC,60,222,22,12,SS_CENTERIMAGE
+    CTEXT           "θ2",IDC_STATIC,112,222,22,12,SS_CENTERIMAGE
+    CTEXT           "θ3",IDC_STATIC,159,222,22,12,SS_CENTERIMAGE
+    CTEXT           "θ4",IDC_STATIC,205,222,22,12,SS_CENTERIMAGE
+    CTEXT           "θ5",IDC_STATIC,257,222,22,12,SS_CENTERIMAGE
+    CTEXT           "θ6",IDC_STATIC,303,222,22,12,SS_CENTERIMAGE
+    PUSHBUTTON      "Set Length",IDC_UPDATE,625,188,50,14
+    EDITTEXT        IDC_L1,634,60,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_L2,634,83,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_L3,634,106,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_L4,634,128,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_L5,634,148,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_L6,634,169,40,14,ES_AUTOHSCROLL
+    LTEXT           "d1=",IDC_STATIC,614,61,13,8
+    LTEXT           "d2=",IDC_STATIC,614,85,13,8
+    LTEXT           "a2=",IDC_STATIC,614,107,13,8
+    LTEXT           "d4=",IDC_STATIC,614,130,13,8
+    LTEXT           "d5=",IDC_STATIC,614,150,13,8
+    LTEXT           "d6=",IDC_STATIC,614,170,13,8
+    PUSHBUTTON      "Clear",IDC_CLR,37,195,50,14
+    EDITTEXT        IDC_PXX,245,69,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PYY,245,105,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PZZ,245,143,40,14,ES_AUTOHSCROLL
+    LTEXT           "px'=",IDC_STATIC,251,55,17,8
+    LTEXT           "py'=",IDC_STATIC,251,91,17,8
+    LTEXT           "pz'=",IDC_STATIC,251,129,17,8
+    PUSHBUTTON      "Calculate",IDC_TRACK,612,304,50,14
+    PUSHBUTTON      "Open File",IDC_OPEN,245,166,50,14
+    EDITTEXT        IDC_TIME,628,319,40,14,ES_AUTOHSCROLL
+    LTEXT           "Step Time(ms)",IDC_STATIC,566,321,58,8
+    CONTROL         "Apply Range Restriction",IDC_ANG,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,200,211,132,10
+    CONTROL         "Continuous",IDC_CONT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,675,322,58,10
+    EDITTEXT        IDC_STEP,693,264,40,14,ES_AUTOHSCROLL
+    LTEXT           "△d=",IDC_STATIC,673,265,17,8
+    PUSHBUTTON      "Set Parameters",IDC_STEPCHANGE,665,304,63,14
+    EDITTEXT        IDC_LMT1,49,233,20,14,ES_AUTOHSCROLL
+    CTEXT           "~",IDC_STATIC,69,237,8,8
+    EDITTEXT        IDC_LMT2,77,233,20,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LMT3,100,233,21,14,ES_AUTOHSCROLL
+    CTEXT           "~",IDC_STATIC,119,237,8,8
+    EDITTEXT        IDC_LMT4,125,233,22,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LMT5,149,233,19,14,ES_AUTOHSCROLL
+    CTEXT           "~",IDC_STATIC,166,237,8,8
+    EDITTEXT        IDC_LMT6,172,233,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LMT7,196,233,20,14,ES_AUTOHSCROLL
+    CTEXT           "~",IDC_STATIC,214,237,8,8
+    EDITTEXT        IDC_LMT8,221,233,21,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LMT9,246,233,21,14,ES_AUTOHSCROLL
+    CTEXT           "~",IDC_STATIC,265,237,8,8
+    EDITTEXT        IDC_LMT10,271,233,22,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LMT11,297,233,20,14,ES_AUTOHSCROLL
+    CTEXT           "~",IDC_STATIC,315,237,8,8
+    EDITTEXT        IDC_LMT12,323,233,21,14,ES_AUTOHSCROLL
+    CONTROL         "Linear interpolation",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,580,264,93,10
+    CONTROL         "Angular Interpolation",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,577,286,99,10
+    GROUPBOX        "Interpolation Calculation",IDC_STATIC,561,254,177,83
+    EDITTEXT        IDC_STEP2,693,286,40,14,ES_AUTOHSCROLL
+    LTEXT           "△θ=",IDC_STATIC,673,288,20,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "FileDescription", "毕业设计——计算与仿真"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "BYSJ"
+            VALUE "LegalCopyright", "版权所有 (C) 2016"
+            VALUE "OriginalFilename", "Bai_Sim.EXE"
+            VALUE "ProductName", "毕业设计——仿真与计算"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_Simulator_Xiaotian_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 782
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 439
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_Simulator_Xiaotian_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "毕业设计——仿真与计算"
+END
+
+#endif    // Chinese (Simplified, PRC) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Simulator_Xiaotian.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

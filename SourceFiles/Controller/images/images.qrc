@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>app_icon.ico</file>
+        <file>app_icon.png</file>
+        <file>dir.jpg</file>
+        <file>dir2.png</file>
+        <file>down.jpg</file>
+        <file>down2.png</file>
+        <file>down3.png</file>
+        <file>down4.png</file>
+        <file>left.jpg</file>
+        <file>left2.png</file>
+        <file>right.jpg</file>
+        <file>right2.png</file>
+        <file>up.jpg</file>
+        <file>up2.png</file>
+        <file>up3.png</file>
+        <file>up4.png</file>
+        <file>up7773.png</file>
+    </qresource>
+</RCC>
