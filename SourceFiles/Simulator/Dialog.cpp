@@ -1133,32 +1133,32 @@ CString CSimulator_XiaotianDlg::DetAngScal(double aa, double bb, double cc, doub
 	CString str0 = " ";
 	if (aa<m_lmt1||aa>m_lmt2)
 	{i=1;
-	str+="¦È1";
+	str+="A1";
 	}
 
 	if (bb<m_lmt3||bb>m_lmt4)
 	{i=1;
-	str+="¦È2";
+	str+="A2";
 	}
 
 	if (cc<m_lmt5 ||cc>m_lmt6)
 	{i=1;
-	str+="¦È3";
+	str+="A3";
 	}
 	
 	if (dd<m_lmt7 ||dd>m_lmt8)
 	{i=1;
-	str+="¦È4";
+	str+="A4";
 	}
 
 	if (ee<m_lmt9||ee>m_lmt10)
 	{i=1;
-	str+="¦È5";
+	str+="A5";
 	}
 	if (ff<m_lmt11 || ff>m_lmt12)
 	{
 		i = 1;
-		str += "¦È6";
+		str += "A6";
 	}
 	
 	if (i)
